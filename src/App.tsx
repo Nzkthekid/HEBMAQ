@@ -182,7 +182,7 @@ export default function App() {
               />
               <ProductCard 
                 title="Modelo Premium"
-                price="2.200"
+                price="1.900"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
                 isPremium
                 image="/premium.PNG"
