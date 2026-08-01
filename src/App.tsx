@@ -163,7 +163,7 @@ export default function App() {
             </div>
           </div>
           <p className="text-center mt-6 text-sm font-medium text-gray-500">
-            Economia real de <span className="text-gray-900 font-bold">R$ 499,90</span> se comprar agora.
+            Economia real de <span className="text-gray-900 font-bold">R$ 399,90</span> se comprar agora.
           </p>
         </section>
 
@@ -182,7 +182,7 @@ export default function App() {
               />
               <ProductCard 
                 title="Modelo Premium"
-                price="3.000"
+                price="2.999"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
                 isPremium
                 image="/premium.PNG"
