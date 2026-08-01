@@ -149,7 +149,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Venda Terceirizada</span>
               <p className="font-semibold text-gray-600 mb-4">Mercado Livre</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.599,90</span>
+                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.999,90</span>
                 <XCircle className="text-red-400 mt-2" size={24} />
               </div>
             </div>
