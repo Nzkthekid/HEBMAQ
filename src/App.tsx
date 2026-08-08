@@ -113,7 +113,7 @@ export default function App() {
               Fatiadores HEBMAQ: Direto da Fábrica para seu negócio.
             </h1>
             <p className="text-lg text-gray-500 font-medium leading-relaxed mb-10 px-4">
-              Economize até <span className="text-gray-900 font-bold">R$ 399,90</span> comprando pelo canal oficial. Qualidade industrial com entrega em todo o Brasil.
+              Economize até <span className="text-gray-900 font-bold">R$ 599,90</span> comprando pelo canal oficial. Qualidade industrial com entrega em todo o Brasil.
             </p>
             <a href={WHATSAPP_URL} className="btn-primary mx-auto group">
               Resgatar Desconto via WhatsApp
@@ -157,13 +157,13 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-white/40 tracking-wider mb-2">Canal Oficial</span>
               <p className="font-semibold mb-4">HEBMAQ Direto</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-bold">R$ 2.599,00</span>
+                <span className="text-2xl font-bold">R$ 2.400,00</span>
                 <CheckCircle2 className="text-green-400 mt-2" size={24} />
               </div>
             </div>
           </div>
           <p className="text-center mt-6 text-sm font-medium text-gray-500">
-            Economia real de <span className="text-gray-900 font-bold">R$ 399,90</span> se comprar agora.
+            Economia real de <span className="text-gray-900 font-bold">R$ 599,90</span> se comprar agora.
           </p>
         </section>
 
@@ -174,7 +174,7 @@ export default function App() {
             <div className="grid gap-8">
               <ProductCard 
                 title="Modelo Standard"
-                price="2.599"
+                price="2.500"
                 description="Fatiadora com frente em inox. O melhor custo-benefício para alto giro e durabilidade."
                 badge="Mais vendido"
                 image="/standard.JPG"
@@ -182,7 +182,7 @@ export default function App() {
               />
               <ProductCard 
                 title="Modelo Premium"
-                price="2.999"
+                price="2.700"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
                 isPremium
                 image="/premium.PNG"
@@ -219,7 +219,7 @@ export default function App() {
             <div className="w-12 h-12 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-900">
               <CreditCard size={24} />
             </div>
-            <h3 className="font-bold text-sm">6x Sem Juros</h3>
+            <h3 className="font-bold text-sm">3x Sem Juros</h3>
             <p className="text-xs text-gray-500 leading-relaxed">Facilidade no pagamento direto pelo canal oficial.</p>
           </div>
           <div className="flex flex-col gap-3">
