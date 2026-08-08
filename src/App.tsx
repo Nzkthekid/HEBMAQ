@@ -174,7 +174,7 @@ export default function App() {
             <div className="grid gap-8">
               <ProductCard 
                 title="Modelo Standard"
-                price="2.500"
+                price="2.400"
                 description="Fatiadora com frente em inox. O melhor custo-benefício para alto giro e durabilidade."
                 badge="Mais vendido"
                 image="/standard.JPG"
