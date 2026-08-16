@@ -113,7 +113,7 @@ export default function App() {
               Fatiadores HEBMAQ: Direto da Fábrica para seu negócio.
             </h1>
             <p className="text-lg text-gray-500 font-medium leading-relaxed mb-10 px-4">
-              Economize até <span className="text-gray-900 font-bold">R$ 599,90</span> comprando pelo canal oficial. Qualidade industrial com entrega em todo o Brasil.
+              Economize até <span className="text-gray-900 font-bold">R$ 399,90</span> comprando pelo canal oficial. Qualidade industrial com entrega em todo o Brasil.
             </p>
             <a href={WHATSAPP_URL} className="btn-primary mx-auto group">
               Resgatar Desconto via WhatsApp
