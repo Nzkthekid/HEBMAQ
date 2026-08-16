@@ -149,7 +149,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Venda Terceirizada</span>
               <p className="font-semibold text-gray-600 mb-4">Mercado Livre</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.999,90</span>
+                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.599,90</span>
                 <XCircle className="text-red-400 mt-2" size={24} />
               </div>
             </div>
@@ -157,13 +157,13 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-white/40 tracking-wider mb-2">Canal Oficial</span>
               <p className="font-semibold mb-4">HEBMAQ Direto</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-bold">R$ 2.400,00</span>
+                <span className="text-2xl font-bold">R$ 2.200,00</span>
                 <CheckCircle2 className="text-green-400 mt-2" size={24} />
               </div>
             </div>
           </div>
           <p className="text-center mt-6 text-sm font-medium text-gray-500">
-            Economia real de <span className="text-gray-900 font-bold">R$ 599,90</span> se comprar agora.
+            Economia real de <span className="text-gray-900 font-bold">R$ 399,90</span> se comprar agora.
           </p>
         </section>
 
@@ -174,7 +174,7 @@ export default function App() {
             <div className="grid gap-8">
               <ProductCard 
                 title="Modelo Standard"
-                price="2.400"
+                price="2.200"
                 description="Fatiadora com frente em inox. O melhor custo-benefício para alto giro e durabilidade."
                 badge="Mais vendido"
                 image="/standard.JPG"
@@ -182,7 +182,7 @@ export default function App() {
               />
               <ProductCard 
                 title="Modelo Premium"
-                price="2.700"
+                price="2.400"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
                 isPremium
                 image="/premium.PNG"
@@ -219,7 +219,7 @@ export default function App() {
             <div className="w-12 h-12 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-900">
               <CreditCard size={24} />
             </div>
-            <h3 className="font-bold text-sm">3x Sem Juros</h3>
+            <h3 className="font-bold text-sm">Desconto no Pix e Frete Grátis!</h3>
             <p className="text-xs text-gray-500 leading-relaxed">Facilidade no pagamento direto pelo canal oficial.</p>
           </div>
           <div className="flex flex-col gap-3">
