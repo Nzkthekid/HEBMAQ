@@ -132,7 +132,7 @@ export default function App() {
               className="aspect-[9/16] bg-black rounded-[2.5rem] shadow-2xl relative overflow-hidden group border-[8px] border-white"
             >
               <iframe
-                src="https://www.tiktok.com/embed/v2/7625382722948631815"
+                src="https://www.tiktok.com/embed/v2/7678568963084733703"
                 className="absolute inset-0 w-full h-full"
                 allow="fullscreen"
                 title="TikTok Video HEBMAQ"
