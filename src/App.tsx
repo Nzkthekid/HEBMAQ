@@ -157,7 +157,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-white/40 tracking-wider mb-2">Canal Oficial</span>
               <p className="font-semibold mb-4">HEBMAQ Direto</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-bold">R$ 1.800,00</span>
+                <span className="text-2xl font-bold">R$ 1.900,00</span>
                 <CheckCircle2 className="text-green-400 mt-2" size={24} />
               </div>
             </div>
