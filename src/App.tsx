@@ -176,7 +176,7 @@ export default function App() {
                 title="Modelo Standard"
                 price="1.700,00"
                 description="Fatiadora com frente em inox. O melhor custo-benefício para alto giro e durabilidade."
-                badge="Mais vendido"
+                badge="Custo benefício"
                 image="/standard.JPG"
                 waMessage="Olá! Vim pelo site e gostaria de resgatar meu desconto no fatiador modelo standard."
               />
@@ -184,6 +184,7 @@ export default function App() {
                 title="Modelo Premium"
                 price="1.900,00"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
+                badge="Mais vendido"
                 isPremium
                 image="/premium.PNG"
                 waMessage="Olá! Vim pelo site e gostaria de resgatar meu desconto no fatiador modelo premium."
