@@ -149,7 +149,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-2">Venda Terceirizada</span>
               <p className="font-semibold text-gray-600 mb-4">Mercado Livre</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.799,90</span>
+                <span className="text-xl font-bold text-gray-400 line-through">R$ 2.199,90</span>
                 <XCircle className="text-red-400 mt-2" size={24} />
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function App() {
               <span className="text-[10px] uppercase font-bold text-white/40 tracking-wider mb-2">Canal Oficial</span>
               <p className="font-semibold mb-4">HEBMAQ Direto</p>
               <div className="flex flex-col items-center gap-1">
-                <span className="text-2xl font-bold">R$ 2.500,00</span>
+                <span className="text-2xl font-bold">R$ 1.800,00</span>
                 <CheckCircle2 className="text-green-400 mt-2" size={24} />
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function App() {
             <div className="grid gap-8">
               <ProductCard 
                 title="Modelo Standard"
-                price="2.500,00"
+                price="1.700,00"
                 description="Fatiadora com frente em inox. O melhor custo-benefício para alto giro e durabilidade."
                 badge="Mais vendido"
                 image="/standard.JPG"
@@ -182,7 +182,7 @@ export default function App() {
               />
               <ProductCard 
                 title="Modelo Premium"
-                price="2.700,00"
+                price="1.900,00"
                 description="100% Inox 304. Máxima durabilidade e higiene absoluta para rigor industrial."
                 isPremium
                 image="/premium.PNG"
