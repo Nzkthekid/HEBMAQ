@@ -1,4 +1,4 @@
-2/**
+/**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -238,6 +238,7 @@ export default function App() {
             <span className="font-bold text-2xl tracking-tighter uppercase mb-6 block">HEBMAQ</span>
             <p className="text-sm text-gray-400 mb-8 font-medium">
               © 2026 HEBMAQ Indústria Ltda.<br/>
+              CNPJ: 69.330.954/0001-69<br/>
               Excelência em fatiadores industriais.
             </p>
             <div className="flex justify-center gap-6 text-gray-400">
