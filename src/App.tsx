@@ -261,7 +261,7 @@ export default function App() {
 
             <div className="border-t border-gray-100 pt-6 text-xs text-gray-400 space-y-1.5 leading-relaxed">
               <p className="font-medium text-gray-500">
-                CNPJ: 69.330.954/0001-69 • HEBMAQ Indústria e Equipamentos LTDA
+                CNPJ: 69.330.954/0001-69 • HEBMAQ Equipamentos LTDA
               </p>
               <p>
                 © {new Date().getFullYear()} HEBMAQ. Todos os direitos reservados.
