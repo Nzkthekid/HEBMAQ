@@ -234,20 +234,41 @@ export default function App() {
 
         {/* Footer info */}
         <footer className="border-t border-gray-100 pt-12 pb-32 bg-white">
-          <div className="section-container text-center">
-            <span className="font-bold text-2xl tracking-tighter uppercase mb-6 block">HEBMAQ</span>
-            <p className="text-sm text-gray-400 mb-8 font-medium">
-              © 2026 HEBMAQ Indústria Ltda.<br/>
-              CNPJ: 69.330.954/0001-69<br/>
-              Excelência em fatiadores industriais.
+          <div className="section-container text-center max-w-xl mx-auto">
+            <span className="font-bold text-2xl tracking-tighter uppercase mb-3 block">HEBMAQ</span>
+            <p className="text-sm text-gray-500 mb-6 font-medium">
+              Excelência e precisão em fatiadores industriais.
             </p>
-            <div className="flex justify-center gap-6 text-gray-400">
-              <a href={INSTAGRAM_URL} className="hover:text-gray-900 transition-colors flex items-center gap-2 text-xs font-semibold uppercase tracking-widest">
+
+            <div className="flex justify-center gap-6 text-gray-400 mb-8">
+              <a 
+                href={INSTAGRAM_URL} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-gray-900 transition-colors flex items-center gap-2 text-xs font-semibold uppercase tracking-widest"
+              >
                 <Instagram size={16} /> Instagram
               </a>
-              <a href={TIKTOK_URL} className="hover:text-gray-900 transition-colors flex items-center gap-2 text-xs font-semibold uppercase tracking-widest">
-                 TikTok
+              <a 
+                href={TIKTOK_URL} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-gray-900 transition-colors flex items-center gap-2 text-xs font-semibold uppercase tracking-widest"
+              >
+                TikTok
               </a>
+            </div>
+
+            <div className="border-t border-gray-100 pt-6 text-xs text-gray-400 space-y-1.5 leading-relaxed">
+              <p className="font-medium text-gray-500">
+                CNPJ: 69.330.954/0001-69 • HEBMAQ Indústria e Comércio de Máquinas
+              </p>
+              <p>
+                © {new Date().getFullYear()} HEBMAQ. Todos os direitos reservados.
+              </p>
+              <p className="text-[11px] text-gray-400">
+                Imagens meramente ilustrativas. Preços e condições de pagamento exclusivos pelo canal oficial de vendas.
+              </p>
             </div>
           </div>
         </footer>
